@@ -1,13 +1,10 @@
 # config-poweshell
 
 ## Descargar y configurar Terminal y Powershell 7
-La descarga es desde Microsoft store
-
-Terminal:
+La descarga es desde Microsoft store, en mi caso me funciono con powershell 7 preview, sin embargo pueden usar powershell 7:
 
 ![image](https://github.com/kevin-alexis/config-poweshell/assets/77393819/b275a198-e1ae-421b-b22a-8f3d3817eff9)
 
-En mi caso me funciono con powershell 7 preview, sin embargo pueden usar powershell 7:
 ![image](https://github.com/kevin-alexis/config-poweshell/assets/77393819/8bf81caf-ea50-4180-b330-360a73d1f45a)
 
 ![image](https://github.com/kevin-alexis/config-poweshell/assets/77393819/bba0ae20-81c5-4d78-90ca-e11ab549f504)
