@@ -4,6 +4,7 @@
 La descarga es desde Microsoft store
 
 Terminal:
+
 ![image](https://github.com/kevin-alexis/config-poweshell/assets/77393819/b275a198-e1ae-421b-b22a-8f3d3817eff9)
 
 En mi caso me funciono con powershell 7 preview, sin embargo pueden usar powershell 7:
