@@ -90,6 +90,16 @@ Import-Module -Name Terminal-Icons
 set-PSReadLineOption -PredictionViewStyle ListView
 ```
 
+## Instalación de lsd
+```
+choco install lsd
+```
+
+Y luego reemplace el comando ls predeterminado de PowerShell con lsd:
+```
+Set-Alias ls lsd
+```
+
 Ejecutamos la configuració en el powershell con el siguiente comando
 ```
 . $PROFILE
