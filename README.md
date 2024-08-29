@@ -58,6 +58,11 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 oh-my-posh font install
 ```
 
+JetBrainsMono
+```
+choco install jetbrainsmono
+```
+
 ## Instalación de Iconos para archivos y carpetas
 ```
 Install-Module -Name Terminal-Icons -Repository PSGallery
@@ -67,6 +72,11 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 
 ```
 Install-Module posh-git -Scope CurrentUser
+```
+
+## Instalación de lsd
+```
+choco install lsd
 ```
 
 ## Configurar de archivo #PROFILE
@@ -88,16 +98,11 @@ oh-my-posh init pwsh | Invoke-Expression
 Import-Module posh-git
 Import-Module -Name Terminal-Icons
 set-PSReadLineOption -PredictionViewStyle ListView
-```
-
-## Instalación de lsd
-```
-choco install lsd
-```
-
-Y luego reemplace el comando ls predeterminado de PowerShell con lsd:
-```
 Set-Alias ls lsd
+function l { lsd -l $args }
+function la { lsd -a $args }
+function lla { lsd -la $args }
+function lt { lsd --tree $args }
 ```
 
 Ejecutamos la configuració en el powershell con el siguiente comando
