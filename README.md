@@ -9,6 +9,16 @@ La descarga es desde Microsoft store, en mi caso me funciono con powershell 7 pr
 
 ![image](https://github.com/kevin-alexis/config-poweshell/assets/77393819/bba0ae20-81c5-4d78-90ca-e11ab549f504)
 
+## Búsqueda de la versión más reciente de PowerShell
+```
+winget search Microsoft.PowerShell
+```
+
+## Actualizar Powershell - Instalación de PowerShell o PowerShell (versión preliminar) mediante el parámetro id
+```
+winget install --id Microsoft.Powershell --source winget
+winget install --id Microsoft.Powershell.Preview --source winget
+```
 
 ## Añadir Tema de color al archivo JSON
 ```
