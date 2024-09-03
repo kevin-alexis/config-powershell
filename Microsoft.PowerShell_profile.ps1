@@ -49,3 +49,4 @@ function gpush {
     git commit -m "$args"
     git push
 }
+
