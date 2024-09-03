@@ -1,4 +1,4 @@
-# config-poweshell
+# config-powershell
 
 ## Descargar y configurar Terminal y Powershell 7
 La descarga es desde Microsoft store, en mi caso me funciono con powershell 7 preview, sin embargo pueden usar powershell 7:
@@ -55,12 +55,8 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ## Instalación de fuentes
 ```
+# NOTA: Recomendable utilizar Hack Nerd Font Mono
 oh-my-posh font install
-```
-
-JetBrainsMono
-```
-choco install jetbrainsmono
 ```
 
 ## Instalación de Iconos para archivos y carpetas
@@ -69,7 +65,6 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
 ## Instalar modulo de Git
-
 ```
 Install-Module posh-git -Scope CurrentUser
 ```
@@ -94,6 +89,7 @@ notepad $PROFILE
 
 Añadimos la siguiente configuración en el fichero, en este se incluye oh my posh, posh-git, terminal-icons y una lista del historial de comando para realizar predicciones
 ```
+# oh-my-posh init pwsh --config 'C:/PowerShell/config.omp.json' | Invoke-Expression
 oh-my-posh init pwsh | Invoke-Expression
 Import-Module posh-git
 Import-Module -Name Terminal-Icons
@@ -112,5 +108,8 @@ Ejecutamos la configuració en el powershell con el siguiente comando
 
 ## CREDITOS
 [Contribution guidelines for this project](https://github.com/Richienb/windows-terminal-snazzy/blob/main/snazzy.json)
+[Contribution guidelines for this project](https://podter.me/blog/pwsh-customization)
+
+
 
 
