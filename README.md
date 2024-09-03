@@ -54,8 +54,8 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
 ## Instalación de fuentes
+NOTA: Recomendable utilizar Hack Nerd Font Mono
 ```
-# NOTA: Recomendable utilizar Hack Nerd Font Mono
 oh-my-posh font install
 ```
 
